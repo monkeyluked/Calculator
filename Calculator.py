@@ -42,7 +42,7 @@ def button_equal():
        e.insert(0, f_num * int(second_number))
 
     if math == "division":
-       e.insert(0, f_num + int(second_number))
+       e.insert(0, f_num / int(second_number))
 
 def button_subtract():
         first_number = e.get()
